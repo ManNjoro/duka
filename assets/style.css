@@ -1,0 +1,252 @@
+#navbar{
+    width:100%;
+    background-color:#fff;
+    top: 0;
+    left: 0;
+    right: 0;
+    height:100%;
+    border-bottom:1px solid gray;
+}
+body{
+  margin:auto;
+  margin-top: 100px;
+}
+
+li {
+    float:left;
+  }
+  ul{
+      list-style:none;
+      padding:0;
+      margin: 0;
+      overflow:hidden;  
+  }
+  li a {
+    display: block;
+    color: rgb(10, 10, 10);
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size:18px;
+    margin-left: 40px;
+  }
+  li a:hover {
+    background-color: gray;
+  }
+  body{
+      margin:0;
+  }
+  #search{
+    float:right;
+    overflow:hidden;
+    margin-top: 15px;
+     }
+     #logo{
+       font-size:20%;
+       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     }
+  #bag{
+    float:right;
+    display:flex;
+    position:absolute;
+    left:140px;
+    padding: 20px;
+    margin-top: 15px;
+  }
+  .img{
+   position: absolute;
+   width: 100px;
+   height: 100px;
+   top:30px;
+   right: 0;
+  }
+  .imgstyle{
+position: absolute;
+width:60%;
+height:250px;
+  }
+  .content{
+    display:block;
+    margin-top:140px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  .bg{
+    background-color: black;
+    color:white;
+    padding:10px;
+    right:140px;
+    margin-right:1200px;
+    margin-left:5px ;
+    text-align: center;
+  }
+  .container{
+    position: absolute;
+    top: 100%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    background-color: bisque;
+   
+  }
+  .cart{
+    position:relative;
+    width: 600px;
+    height: 450px;
+    box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.1),0px 10px 12px 0px rgba(0,0,0,0.9);
+   
+  }
+  h2{
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+h3{
+  text-align: left;
+  display: flex;
+}
+#sports{
+  margin-bottom: 10px;
+}
+ .container1{
+   margin-top: 500px;
+   
+ }
+ .cap{
+   float: left;
+   font-weight: bold;
+   font-size: x-large;
+ }
+ #table1{
+   background-color: rgb(236, 216, 216);
+   width: 100%;
+ }
+ #table2{
+    background-color: grey;
+   width: 100%;
+ }
+ 
+ img{
+   text-align: center;
+
+ }
+ .model{
+   height:350px;
+   max-height: 100%;
+   max-width: 100%;
+    }
+  .details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+  }
+  .details p{
+  font-family: calibri;
+  font-weight: bold;
+  color: #6a6a74;
+  margin-top: 20px;
+  }
+  .box:hover{
+    background-color: #3db5ec;
+    transform-style: preserve-3d;
+    transform: scale(1.02);
+    transition:all ease 0.3s
+  }
+ 
+  
+  .container2{
+    width: 50%;
+    height:100vh;
+    display: inline-block;
+    justify-content:center;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 45%;
+   
+   
+  }
+  .div{
+    width: 140px;
+    padding: 10px;
+    border: 2px solid rgb(8, 7, 7);
+    margin: 0;
+    margin-left: 0;
+    font-size: small;
+    display: inline-block;
+  }
+  .container3{
+    background-color: black;
+    color:white;
+   height: 100%;
+   padding: 100px ;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    margin-top: -350px;
+    
+  }
+  .table{
+    margin-top: 5px;
+    width:35%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+  }
+  .copy{
+    text-align: left;
+    margin-top: 100px;
+  }
+  
+          .bar{
+            display: inline-block;
+            overflow:hidden;
+            margin-top: 15px;
+           
+          }
+          .sam{
+            
+            float:right;
+    overflow:hidden;
+    padding-left: 600px;
+    
+    margin-top: -30px;
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #6a6a74;
+          }
+          #row{
+            color: #6a6a74;
+           
+          }
+          .cont{
+            width:100%;
+            margin-right: 90px;
+          }
+          @media (min-width: 576px)
+          {
+            .img{
+              position: absolute;
+              width: 50%;
+              height: 50%;
+              top:30px;
+              right: 0;
+             }
+             .content{
+              display:block;
+              margin-top:140px;
+              font-family: 'Times New Roman', Times, serif;
+              font-size: 20px;
+              margin-left: 10px;
+            }
+            .container2{
+              width: 30%;
+              height:100vh;
+              display: inline-block;
+              justify-content:center;
+              align-items: center;
+              margin-top: 60px;
+              margin-left: 20%;
+          }
+        }
